@@ -19,7 +19,11 @@ public class TweetTester {
     public static void main(String[] args) {
         
         Scanner scan = new Scanner (System.in);
-         String tweet;
+        //this allows the user to put input
+         Scanner sc = new Scanner(System.in);
+         String tweet = sc.nextLine();
+         int length = tweet.length();
+         System.out.println(length);
          
     }
     
